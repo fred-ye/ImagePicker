@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2017 Zhihu Inc.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<resources>
+    <attr name="album.thumbnail.placeholder" format="reference|color"/>
+    <attr name="album.emptyView" format="reference"/>
+    <attr name="album.emptyView.textColor" format="reference|color"/>
+    <attr name="item.checkCircle.backgroundColor" format="reference|color"/>
+    <attr name="item.checkCircle.borderColor" format="reference|color"/>
+    <attr name="capture.textColor" format="reference|color"/>
+    <attr name="item.placeholder" format="reference|color"/>
+    <attr name="title.background" format="reference|color"/>
+    <attr name="title.commonText.color" format="reference|color"/>
+    <attr name="title.actionText.color" format="reference|color"/>
+    <attr name="title.arrowDown" format="reference"/>
+    <attr name="title.arrowUp" format="reference"/>
+    <attr name="title.statusBar.color" format="color"/>
+    <attr name="title.statusBar.darkFont" format="boolean"/>
+    <attr name="previewTitle.background" format="reference|color"/>
+    <attr name="previewTitle.commonText.color" format="reference|color"/>
+    <attr name="previewTitle.actionText.color" format="reference|color"/>
+
+    <declare-styleable name="LoadingView">
+        <!-- 是否暗色背景 -->
+        <attr name="isDarkBg" format="boolean" />
+        <!-- 默认显示时，透明度是否递增 -->
+        <attr name="isDefaultDiffAlpha" format="boolean"/>
+        <!-- 默认是否显示 -->
+        <attr name="defaultVisibility">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+            <enum name="gone" value="2" />
+        </attr>
+        <attr name="lv_between_space" format="dimension"/>
+        <attr name="lv_radius" format="dimension"/>
+        <attr name="lv_normal_color" format="color"/>
+        <attr name="lv_dark_bg_color" format="color"/>
+        <attr name="lv_error_tip" format="string"/>
+        <attr name="lv_error_tip_color" format="color"/>
+        <attr name="lv_error_tip_size" format="dimension"/>
+    </declare-styleable>
+
+</resources>

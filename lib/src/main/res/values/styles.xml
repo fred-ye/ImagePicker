@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="CommonTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="item.placeholder">@color/item_placeholder_common</item>
+        <item name="capture.textColor">@color/capture_text_color</item>
+        <item name="title.background">@color/white</item>
+        <item name="title.commonText.color">@color/common_text</item>
+        <item name="title.actionText.color">@color/blue_1</item>
+        <item name="title.arrowDown">@drawable/arrow_down_black</item>
+        <item name="title.arrowUp">@drawable/arrow_up_black</item>
+        <item name="title.statusBar.color">@color/white</item>
+        <item name="title.statusBar.darkFont">false</item>
+        <item name="previewTitle.background">@android:color/black</item>
+        <item name="previewTitle.commonText.color">@android:color/white</item>
+        <item name="previewTitle.actionText.color">@color/blue_1</item>
+    </style>
+
+    <style name="QQTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="item.placeholder">@color/item_placeholder</item>
+        <item name="capture.textColor">@color/white</item>
+        <item name="title.background">@color/blue_1</item>
+        <item name="title.commonText.color">@color/white</item>
+        <item name="title.actionText.color">@color/white</item>
+        <item name="title.arrowDown">@drawable/arrow_down_white</item>
+        <item name="title.arrowUp">@drawable/arrow_up_white</item>
+        <item name="title.statusBar.color">@color/blue_1</item>
+        <item name="title.statusBar.darkFont">true</item>
+        <item name="previewTitle.background">@android:color/black</item>
+        <item name="previewTitle.commonText.color">@android:color/white</item>
+        <item name="previewTitle.actionText.color">@color/blue_1</item>
+    </style>
+
+    <style name="PopupAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/activity_bottompopup_enter</item>
+        <item name="android:windowExitAnimation">@anim/activity_bottompopup_exit</item>
+    </style>
+
+    <style name="title_back_style">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">15dip</item>
+        <item name="android:paddingRight">15dip</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>

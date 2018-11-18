@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="checkCircle_backgroundColor">#1E8AE8</color>
+    <color name="checkCircle_borderColor">#FFFFFF</color>
+    <color name="capture_text_color">#424242</color>
+    <color name="item_placeholder">#565656</color>
+    <color name="item_placeholder_common">#EAEEF4</color>
+    <color name="title_cancel">#666666</color>
+    <color name="common_text">#333333</color>
+    <color name="blue_1">#4889db</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+
+
+
+    <color name="lv_normal_color_default">#4590ED</color>
+    <color name="lv_dark_bg_color_default">#ffffff</color>
+
+</resources>
